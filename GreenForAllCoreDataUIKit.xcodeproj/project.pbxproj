@@ -163,7 +163,6 @@
 				56F46B91260A1EDB0003BC01 /* Guide */,
 				56F46B7D2609F44A0003BC01 /* Profil */,
 				7D64530B2609F16800C37C56 /* Market */,
-				7D64530A2609F14600C37C56 /* Guide */,
 				7D88B24D260973950066E419 /* Contributions */,
 				7D5714D126094ACE00F8BB95 /* Users */,
 				7D297ECF2607F2E900FEDACD /* Projects */,
@@ -237,15 +236,6 @@
 			path = Users;
 			sourceTree = "<group>";
 		};
-		7D64530A2609F14600C37C56 /* Guide */ = {
-			isa = PBXGroup;
-			children = (
-				7D64530D2609F18000C37C56 /* views */,
-				7D64530C2609F17500C37C56 /* models */,
-			);
-			path = Guide;
-			sourceTree = "<group>";
-		};
 		7D64530B2609F16800C37C56 /* Market */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,20 +243,6 @@
 				7D64530E2609F19100C37C56 /* views */,
 			);
 			path = Market;
-			sourceTree = "<group>";
-		};
-		7D64530C2609F17500C37C56 /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		7D64530D2609F18000C37C56 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		7D64530E2609F19100C37C56 /* views */ = {
