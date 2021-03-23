@@ -21,7 +21,7 @@ struct ProjectListView: View {
     @State var showAddProjectView:Bool = false
     
     var body: some View {
-        
+       
         //Use this if NavigationBarTitle is with Large Font
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
         
@@ -63,6 +63,7 @@ struct ProjectListView: View {
                     .environment(\.managedObjectContext, managedObjectContext)
             })
         } //: NAVIGATION
+     
     }
 }
 
