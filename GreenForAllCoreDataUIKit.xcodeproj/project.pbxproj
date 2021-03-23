@@ -10,7 +10,6 @@
 		56B41904260A21E100111B17 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41903260A21E100111B17 /* TabBar.swift */; };
 		56B41922260A243A00111B17 /* LoadDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41907260A243A00111B17 /* LoadDataFile.swift */; };
 		56B41923260A243A00111B17 /* StocksAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41908260A243A00111B17 /* StocksAPIModel.swift */; };
-		56B41924260A243A00111B17 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190A260A243A00111B17 /* SearchBar.swift */; };
 		56B41925260A243A00111B17 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190B260A243A00111B17 /* FavoriteButton.swift */; };
 		56B41926260A243A00111B17 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190C260A243A00111B17 /* Color.swift */; };
 		56B41927260A243A00111B17 /* CombineJSONStockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190D260A243A00111B17 /* CombineJSONStockPrice.swift */; };
@@ -69,7 +68,6 @@
 		56B41903260A21E100111B17 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		56B41907260A243A00111B17 /* LoadDataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataFile.swift; sourceTree = "<group>"; };
 		56B41908260A243A00111B17 /* StocksAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksAPIModel.swift; sourceTree = "<group>"; };
-		56B4190A260A243A00111B17 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		56B4190B260A243A00111B17 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		56B4190C260A243A00111B17 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		56B4190D260A243A00111B17 /* CombineJSONStockPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineJSONStockPrice.swift; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 		56B41909260A243A00111B17 /* tools */ = {
 			isa = PBXGroup;
 			children = (
-				56B4190A260A243A00111B17 /* SearchBar.swift */,
 				56B4190B260A243A00111B17 /* FavoriteButton.swift */,
 				56B4190C260A243A00111B17 /* Color.swift */,
 			);
@@ -502,7 +499,6 @@
 				56F46B9E260A1EDB0003BC01 /* CardRow.swift in Sources */,
 				7D6452FE2609E80100C37C56 /* User+CoreDataClass.swift in Sources */,
 				7D297EB62607F19000FEDACD /* ContentView.swift in Sources */,
-				56B41924260A243A00111B17 /* SearchBar.swift in Sources */,
 				7D297EB92607F19000FEDACD /* GreenForAllCoreDataUIKit.xcdatamodeld in Sources */,
 				56B41926260A243A00111B17 /* Color.swift in Sources */,
 				56F46B9A260A1EDB0003BC01 /* CategoDummieData.swift in Sources */,
