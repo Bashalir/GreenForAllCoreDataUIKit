@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56B41904260A21E100111B17 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41903260A21E100111B17 /* TabBar.swift */; };
 		56F46B7F2609F4750003BC01 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B7E2609F4750003BC01 /* ProfilView.swift */; };
 		56F46B832609F4E20003BC01 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B822609F4E20003BC01 /* Profil.swift */; };
 		56F46B862609F5050003BC01 /* ProfilPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B852609F5050003BC01 /* ProfilPresentation.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56B41903260A21E100111B17 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		56F46B7E2609F4750003BC01 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 		56F46B822609F4E20003BC01 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
 		56F46B852609F5050003BC01 /* ProfilPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilPresentation.swift; sourceTree = "<group>"; };
@@ -91,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56B41902260A21E100111B17 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				56B41903260A21E100111B17 /* TabBar.swift */,
+			);
+			name = TabBar;
+			path = "../../../Downloads/Green4all-emmanuel/Green4all/TabBar";
+			sourceTree = "<group>";
+		};
 		56F46B7D2609F44A0003BC01 /* Profil */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +171,7 @@
 		7D297EB02607F19000FEDACD /* GreenForAllCoreDataUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				56B41902260A21E100111B17 /* TabBar */,
 				56F46B91260A1EDB0003BC01 /* Guide */,
 				56F46B7D2609F44A0003BC01 /* Profil */,
 				7D64530B2609F16800C37C56 /* Market */,
@@ -401,6 +413,7 @@
 				7D297ED22607F37900FEDACD /* ProjectListView.swift in Sources */,
 				7D297EE72608052500FEDACD /* ProjectDetailView.swift in Sources */,
 				56F46B9C260A1EDB0003BC01 /* DetailOfDetail.swift in Sources */,
+				56B41904260A21E100111B17 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
