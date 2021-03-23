@@ -45,7 +45,6 @@ struct ProfilView: View {
                         
                     }
                     
-             
                         Text("Mes Contributions")
                             .fontWeight(.bold)
                             .font(.system(size:20))

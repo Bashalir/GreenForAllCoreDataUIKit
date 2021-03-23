@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		56B41904260A21E100111B17 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41903260A21E100111B17 /* TabBar.swift */; };
+		56B41922260A243A00111B17 /* LoadDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41907260A243A00111B17 /* LoadDataFile.swift */; };
+		56B41923260A243A00111B17 /* StocksAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41908260A243A00111B17 /* StocksAPIModel.swift */; };
+		56B41924260A243A00111B17 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190A260A243A00111B17 /* SearchBar.swift */; };
+		56B41925260A243A00111B17 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190B260A243A00111B17 /* FavoriteButton.swift */; };
+		56B41926260A243A00111B17 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190C260A243A00111B17 /* Color.swift */; };
+		56B41927260A243A00111B17 /* CombineJSONStockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190D260A243A00111B17 /* CombineJSONStockPrice.swift */; };
+		56B41928260A243A00111B17 /* SwiftUILineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4190F260A243A00111B17 /* SwiftUILineView.swift */; };
+		56B41929260A243A00111B17 /* SwiftUILine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41910260A243A00111B17 /* SwiftUILine.swift */; };
+		56B4192A260A243A00111B17 /* SwiftUIPathLinechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41911260A243A00111B17 /* SwiftUIPathLinechart.swift */; };
+		56B4192B260A243A00111B17 /* Bundle_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41912260A243A00111B17 /* Bundle_Decodable.swift */; };
+		56B4192C260A243A00111B17 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41913260A243A00111B17 /* TestView.swift */; };
+		56B4192D260A243A00111B17 /* CombineURLSessionStockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41914260A243A00111B17 /* CombineURLSessionStockPrice.swift */; };
+		56B4192E260A243A00111B17 /* MarketAssetDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41916260A243A00111B17 /* MarketAssetDataList.swift */; };
+		56B4192F260A243A00111B17 /* MarketAssetDataDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41917260A243A00111B17 /* MarketAssetDataDetailView.swift */; };
+		56B41930260A243A00111B17 /* MarketListJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41918260A243A00111B17 /* MarketListJson.swift */; };
+		56B41931260A243A00111B17 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41919260A243A00111B17 /* Market.swift */; };
+		56B41932260A243A00111B17 /* AAPL2021-03-22.json in Resources */ = {isa = PBXBuildFile; fileRef = 56B4191B260A243A00111B17 /* AAPL2021-03-22.json */; };
+		56B41933260A243A00111B17 /* IBM2021-03-22.json in Resources */ = {isa = PBXBuildFile; fileRef = 56B4191C260A243A00111B17 /* IBM2021-03-22.json */; };
+		56B41934260A243A00111B17 /* MSFT2021-03-22.json in Resources */ = {isa = PBXBuildFile; fileRef = 56B4191D260A243A00111B17 /* MSFT2021-03-22.json */; };
+		56B41935260A243A00111B17 /* MarketDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4191F260A243A00111B17 /* MarketDetail.swift */; };
+		56B41936260A243A00111B17 /* MarketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41920260A243A00111B17 /* MarketList.swift */; };
+		56B41937260A243A00111B17 /* MarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B41921260A243A00111B17 /* MarketModel.swift */; };
 		56F46B7F2609F4750003BC01 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B7E2609F4750003BC01 /* ProfilView.swift */; };
 		56F46B832609F4E20003BC01 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B822609F4E20003BC01 /* Profil.swift */; };
 		56F46B862609F5050003BC01 /* ProfilPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46B852609F5050003BC01 /* ProfilPresentation.swift */; };
@@ -45,6 +67,28 @@
 
 /* Begin PBXFileReference section */
 		56B41903260A21E100111B17 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		56B41907260A243A00111B17 /* LoadDataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataFile.swift; sourceTree = "<group>"; };
+		56B41908260A243A00111B17 /* StocksAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksAPIModel.swift; sourceTree = "<group>"; };
+		56B4190A260A243A00111B17 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		56B4190B260A243A00111B17 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		56B4190C260A243A00111B17 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		56B4190D260A243A00111B17 /* CombineJSONStockPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineJSONStockPrice.swift; sourceTree = "<group>"; };
+		56B4190F260A243A00111B17 /* SwiftUILineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILineView.swift; sourceTree = "<group>"; };
+		56B41910260A243A00111B17 /* SwiftUILine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILine.swift; sourceTree = "<group>"; };
+		56B41911260A243A00111B17 /* SwiftUIPathLinechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIPathLinechart.swift; sourceTree = "<group>"; };
+		56B41912260A243A00111B17 /* Bundle_Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle_Decodable.swift; sourceTree = "<group>"; };
+		56B41913260A243A00111B17 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		56B41914260A243A00111B17 /* CombineURLSessionStockPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineURLSessionStockPrice.swift; sourceTree = "<group>"; };
+		56B41916260A243A00111B17 /* MarketAssetDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketAssetDataList.swift; sourceTree = "<group>"; };
+		56B41917260A243A00111B17 /* MarketAssetDataDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketAssetDataDetailView.swift; sourceTree = "<group>"; };
+		56B41918260A243A00111B17 /* MarketListJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketListJson.swift; sourceTree = "<group>"; };
+		56B41919260A243A00111B17 /* Market.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		56B4191B260A243A00111B17 /* AAPL2021-03-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "AAPL2021-03-22.json"; sourceTree = "<group>"; };
+		56B4191C260A243A00111B17 /* IBM2021-03-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "IBM2021-03-22.json"; sourceTree = "<group>"; };
+		56B4191D260A243A00111B17 /* MSFT2021-03-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MSFT2021-03-22.json"; sourceTree = "<group>"; };
+		56B4191F260A243A00111B17 /* MarketDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketDetail.swift; sourceTree = "<group>"; };
+		56B41920260A243A00111B17 /* MarketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketList.swift; sourceTree = "<group>"; };
+		56B41921260A243A00111B17 /* MarketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketModel.swift; sourceTree = "<group>"; };
 		56F46B7E2609F4750003BC01 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 		56F46B822609F4E20003BC01 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
 		56F46B852609F5050003BC01 /* ProfilPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilPresentation.swift; sourceTree = "<group>"; };
@@ -100,6 +144,76 @@
 			);
 			name = TabBar;
 			path = "../../../Downloads/Green4all-emmanuel/Green4all/TabBar";
+			sourceTree = "<group>";
+		};
+		56B41906260A243A00111B17 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				56B41907260A243A00111B17 /* LoadDataFile.swift */,
+				56B41908260A243A00111B17 /* StocksAPIModel.swift */,
+				56B41909260A243A00111B17 /* tools */,
+				56B4190D260A243A00111B17 /* CombineJSONStockPrice.swift */,
+				56B4190E260A243A00111B17 /* graph */,
+				56B41912260A243A00111B17 /* Bundle_Decodable.swift */,
+				56B41913260A243A00111B17 /* TestView.swift */,
+				56B41914260A243A00111B17 /* CombineURLSessionStockPrice.swift */,
+				56B41915260A243A00111B17 /* oldView */,
+				56B4191A260A243A00111B17 /* json */,
+				56B4191E260A243A00111B17 /* View */,
+				56B41921260A243A00111B17 /* MarketModel.swift */,
+			);
+			name = Market;
+			path = "../../../Downloads/Green4all-yoko/Green4all/Market";
+			sourceTree = "<group>";
+		};
+		56B41909260A243A00111B17 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				56B4190A260A243A00111B17 /* SearchBar.swift */,
+				56B4190B260A243A00111B17 /* FavoriteButton.swift */,
+				56B4190C260A243A00111B17 /* Color.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		56B4190E260A243A00111B17 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				56B4190F260A243A00111B17 /* SwiftUILineView.swift */,
+				56B41910260A243A00111B17 /* SwiftUILine.swift */,
+				56B41911260A243A00111B17 /* SwiftUIPathLinechart.swift */,
+			);
+			path = graph;
+			sourceTree = "<group>";
+		};
+		56B41915260A243A00111B17 /* oldView */ = {
+			isa = PBXGroup;
+			children = (
+				56B41916260A243A00111B17 /* MarketAssetDataList.swift */,
+				56B41917260A243A00111B17 /* MarketAssetDataDetailView.swift */,
+				56B41918260A243A00111B17 /* MarketListJson.swift */,
+				56B41919260A243A00111B17 /* Market.swift */,
+			);
+			path = oldView;
+			sourceTree = "<group>";
+		};
+		56B4191A260A243A00111B17 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				56B4191B260A243A00111B17 /* AAPL2021-03-22.json */,
+				56B4191C260A243A00111B17 /* IBM2021-03-22.json */,
+				56B4191D260A243A00111B17 /* MSFT2021-03-22.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		56B4191E260A243A00111B17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56B4191F260A243A00111B17 /* MarketDetail.swift */,
+				56B41920260A243A00111B17 /* MarketList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		56F46B7D2609F44A0003BC01 /* Profil */ = {
@@ -171,10 +285,10 @@
 		7D297EB02607F19000FEDACD /* GreenForAllCoreDataUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				56B41906260A243A00111B17 /* Market */,
 				56B41902260A21E100111B17 /* TabBar */,
 				56F46B91260A1EDB0003BC01 /* Guide */,
 				56F46B7D2609F44A0003BC01 /* Profil */,
-				7D64530B2609F16800C37C56 /* Market */,
 				7D88B24D260973950066E419 /* Contributions */,
 				7D5714D126094ACE00F8BB95 /* Users */,
 				7D297ECF2607F2E900FEDACD /* Projects */,
@@ -246,29 +360,6 @@
 				7D88B24B2609735B0066E419 /* models */,
 			);
 			path = Users;
-			sourceTree = "<group>";
-		};
-		7D64530B2609F16800C37C56 /* Market */ = {
-			isa = PBXGroup;
-			children = (
-				7D64530F2609F19900C37C56 /* models */,
-				7D64530E2609F19100C37C56 /* views */,
-			);
-			path = Market;
-			sourceTree = "<group>";
-		};
-		7D64530E2609F19100C37C56 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		7D64530F2609F19900C37C56 /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
 			sourceTree = "<group>";
 		};
 		7D88B24B2609735B0066E419 /* models */ = {
@@ -371,8 +462,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D297EC12607F19000FEDACD /* LaunchScreen.storyboard in Resources */,
+				56B41934260A243A00111B17 /* MSFT2021-03-22.json in Resources */,
 				7D297EBE2607F19000FEDACD /* Preview Assets.xcassets in Resources */,
+				56B41933260A243A00111B17 /* IBM2021-03-22.json in Resources */,
 				7D297EBB2607F19000FEDACD /* Assets.xcassets in Resources */,
+				56B41932260A243A00111B17 /* AAPL2021-03-22.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,22 +477,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B4192C260A243A00111B17 /* TestView.swift in Sources */,
+				56B41923260A243A00111B17 /* StocksAPIModel.swift in Sources */,
+				56B41936260A243A00111B17 /* MarketList.swift in Sources */,
+				56B4192E260A243A00111B17 /* MarketAssetDataList.swift in Sources */,
+				56B41927260A243A00111B17 /* CombineJSONStockPrice.swift in Sources */,
 				7D5FC7002608B2ED00F28C72 /* CategorySegmentedControl.swift in Sources */,
 				7D297EB22607F19000FEDACD /* AppDelegate.swift in Sources */,
 				7D297ED82607F5A200FEDACD /* CategoryProject.swift in Sources */,
 				7D6453012609E80100C37C56 /* Project+CoreDataProperties.swift in Sources */,
+				56B41931260A243A00111B17 /* Market.swift in Sources */,
+				56B41929260A243A00111B17 /* SwiftUILine.swift in Sources */,
+				56B41930260A243A00111B17 /* MarketListJson.swift in Sources */,
+				56B4192A260A243A00111B17 /* SwiftUIPathLinechart.swift in Sources */,
 				7D6453002609E80100C37C56 /* Project+CoreDataClass.swift in Sources */,
 				7D297EB42607F19000FEDACD /* SceneDelegate.swift in Sources */,
 				56F46B7F2609F4750003BC01 /* ProfilView.swift in Sources */,
+				56B41922260A243A00111B17 /* LoadDataFile.swift in Sources */,
 				56F46B832609F4E20003BC01 /* Profil.swift in Sources */,
+				56B4192D260A243A00111B17 /* CombineURLSessionStockPrice.swift in Sources */,
 				7D88B23E26095C6C0066E419 /* ContributionView.swift in Sources */,
 				7D297ED52607F3C300FEDACD /* ProjectRow.swift in Sources */,
+				56B41935260A243A00111B17 /* MarketDetail.swift in Sources */,
 				56F46B9E260A1EDB0003BC01 /* CardRow.swift in Sources */,
 				7D6452FE2609E80100C37C56 /* User+CoreDataClass.swift in Sources */,
 				7D297EB62607F19000FEDACD /* ContentView.swift in Sources */,
+				56B41924260A243A00111B17 /* SearchBar.swift in Sources */,
 				7D297EB92607F19000FEDACD /* GreenForAllCoreDataUIKit.xcdatamodeld in Sources */,
+				56B41926260A243A00111B17 /* Color.swift in Sources */,
 				56F46B9A260A1EDB0003BC01 /* CategoDummieData.swift in Sources */,
+				56B41925260A243A00111B17 /* FavoriteButton.swift in Sources */,
 				56F46B9D260A1EDB0003BC01 /* GuideFirstPage.swift in Sources */,
+				56B4192B260A243A00111B17 /* Bundle_Decodable.swift in Sources */,
 				56F46B9B260A1EDB0003BC01 /* GuideModel.swift in Sources */,
 				7D6452FD2609E80100C37C56 /* Contribution+CoreDataProperties.swift in Sources */,
 				56F46B892609F5290003BC01 /* ProfilConnexion.swift in Sources */,
@@ -411,6 +521,9 @@
 				7DDAAF0B26080D7C004AF65F /* CreateProjectView.swift in Sources */,
 				56F46B8C2609F5480003BC01 /* ProfilCreate.swift in Sources */,
 				7D297ED22607F37900FEDACD /* ProjectListView.swift in Sources */,
+				56B41928260A243A00111B17 /* SwiftUILineView.swift in Sources */,
+				56B41937260A243A00111B17 /* MarketModel.swift in Sources */,
+				56B4192F260A243A00111B17 /* MarketAssetDataDetailView.swift in Sources */,
 				7D297EE72608052500FEDACD /* ProjectDetailView.swift in Sources */,
 				56F46B9C260A1EDB0003BC01 /* DetailOfDetail.swift in Sources */,
 				56B41904260A21E100111B17 /* TabBar.swift in Sources */,
